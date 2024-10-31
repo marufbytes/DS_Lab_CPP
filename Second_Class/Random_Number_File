@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+   
+      ofstream fout ("1.txt");
+   
+   srand(time(0));
+
+    for(int i=1;i<=1000;i++){
+        fout<<rand()%100+1<<endl;
+
+    } 
+
+
+}
